@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de ticket</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/styleComprarTickets.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<header> 
+        <!-------NavBar-------->
+    <nav class="navbar navbar-light bg-gray">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/codoacodo.png" alt="logo de codo a codo" width="100" height="60" class="d-inline-block align-text-top">
+               Conf Bs As
+             </a>
+           
+            <nav class="navbar navbar-expand-lg navbar-light bg-gray">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">La Conferencia</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Los Oradores</a>
+                            <a class="nav-link" href="#">Lugar y fecha</a>
+                            <a class="nav-link" href="#">Conviertete en Orador</a>
+                            <a class="nav-link" href="../webCodoaCodo/pages/index.html" target="_blank" id="compraT">Comprar Tikets </a>                 
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+</header> 
+<!----------sección de categorías------>  
+<section class="container">
+<div class="descuento">
+    <a href=" ">
+    <h3 class="subtitulo">Estudiante</h3>
+    <p>Tienen un descuento del</p>
+    <p class="porcenaje">80%</p>
+
+</a>
+</div>
+<div class="descuento">
+    <a href="">
+    <h3  class="subtitulo">Trainee</h3>
+    <p>Tienen un descuento del </p>
+    <p class="porcenaje">50%</p>
+</a>
+
+</div>
+<div class="descuento">
+    <a href="">
+    <h3  class="subtitulo"> Junior</h3>
+    <p>Tienen un descuento del 15%</p>
+    <p class="porcenaje">15%</p>
+
+</a>
+</div>
+</section>
+<section>
+        <div class="segundo-titulo">
+            <p>VENTA</p>
+            <h3>VALOR DE TICKET $200</h3>
+        </div>
+        <div class="contenerForm">
+            <form>
+                <div class="row g-3">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        
+                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Correo">
+                        
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Cantidad" aria-label="First name">
+                      </div>
+
+                      <div class="col">
+                          
+                          <select class="form-select" aria-label="Default select example" id="categoria" onchange="selectCategoria()">
+                            <option selected>Seleccione una opción</option>
+                            <option value="0.8">Estudiante</option>
+                            <option value="0.5">Trainee</option>
+                            <option value="0.15">Junior</option>
+                          </select>
+                      </div>
+                      <input class="form-control" type="text" value="Total a pagar $" aria-label="readonly input example" readonly>
+
+                  </div>
+          
+            </form>
+    
+        
+
+</section>
+<footer>
+
+    <ul class="nav justify-content-center">
+  
+      <li class="nav-item">
+  
+        <a class="nav-link active" aria-current="page" href="#">Preguntas Frecuentes</a>
+  
+      </li>
+  
+      <li class="nav-item">
+  
+        <a class="nav-link" href="#">Contactanos</a>
+  
+      </li>
+  
+      <li class="nav-item">
+  
+        <a class="nav-link" href="#">Prensa</a>
+  
+      </li>
+  
+      <li class="nav-item">
+  
+        <a class="nav-link" href="#">Conferencias</a>
+  
+      </li>
+  
+      <li class="nav-item">
+  
+        <a class="nav-link" href="#">Terminos y condiciones</a>
+  
+      </li>
+  
+      <li class="nav-item">
+  
+        <a class="nav-link" href="#">Privacidad</a>
+  
+      </li>
+  
+      <li class="nav-item">
+  
+        <a class="nav-link" href="#">Estudiantes</a>
+  
+      </li>
+  
+    </ul>
+  
+  </footer>
+
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>

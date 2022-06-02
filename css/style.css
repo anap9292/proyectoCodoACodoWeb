@@ -1,0 +1,159 @@
+.section{
+
+    position: relative;
+
+    display: inline-block;
+
+}
+.navbar{
+    background-color: #1b3743;
+    
+}
+#compraT{
+    color: #1ea81c;
+}
+#compraT:hover{
+    color: #e90a0a;
+}
+
+/*Filtro de la imagen principal*/
+
+.div-img>img{
+
+    width: 100%;
+
+    -webkit-filter: brightness(50%);
+
+    filter: brightness(50%);
+
+}
+
+ 
+
+.texto{
+
+    width: 50%;
+
+    font-size: 1.5em;
+
+    position: absolute;
+
+    top: 50%; /*en funcion del % eñl container del texto se mueve sobre la img*/
+
+    left: 40%;
+
+    color: rgb(255, 248, 248);
+
+    font-weight: 500;
+
+    float: right;
+
+
+    text-align: right;
+
+ 
+
+}
+
+/*Sección oradores*/
+.oradores{
+    width: 100%;
+}
+.conten-titulo{
+   text-align: center;
+    width: 100%;
+}
+.tit-oradores{
+    font-size: 1.5em;
+}
+
+.tarjetas{
+    margin: 8em;
+    
+}
+
+.titulo2{
+
+    text-align: center;
+
+}
+
+/*buenos aires octubre*/
+
+.hero-content{
+
+    width: 100%;
+    display: flex;
+    border: solid 1px;
+}
+.img-content{
+    width: 50%;
+}
+.text-content{
+    width: 50%;
+    background-color: #353a40;
+    color: #fffffe;
+}
+
+.hero-content>.img-content>img{
+width: 100%;
+height: 20em;
+}
+
+.btn-conten{
+display: flex;
+float: right;
+}
+
+.btn-conten>.btn{
+margin-left: 2em;
+}
+/*formulario*/
+.conteiner-form{
+    width: 100%;
+}
+.contenerForm{
+    width: 60%;
+    margin: 1em auto;
+}
+.inputs-2{
+    width: 100%;
+  
+    text-align: center;
+    display: flex;
+    
+}
+.inputs-2>input{
+    width: 100%;
+}
+
+form{
+    text-align: center;
+    margin-top: 2em;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+/*Footer*/
+footer>.nav>.nav-item>a{
+
+    color: aliceblue;
+
+}
+
+
+footer{
+
+    width: 100%;
+
+    background: linear-gradient(to right, #1b3743, #1f5271);
+
+     height: 5em;
+
+     padding-top: 1em;
+
+         
+
+}

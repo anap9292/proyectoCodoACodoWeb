@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container>.descuento>a{
+text-decoration: none;
+color: black;
+}
+.container>.descuento>a:hover{
+    color: blue;
+}
+.container{
+    display: flex;
+    width: 100%;
+
+}
+.descuento{
+    width: 30%;
+    height: 15em;
+    border: solid 1px #00eeff;
+    margin: 2em auto;
+    text-align: center;
+   
+}
+.porcenaje{
+    font-size: 1.5em;
+}
+.subtitulo{
+    padding-top: 1em;
+}
+.segundo-titulo{
+    text-align: center;
+}
